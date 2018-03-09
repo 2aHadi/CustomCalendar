@@ -25,3 +25,10 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext{
+    supportLibVersion = ""
+    archComponentVersion = ""
+    rxJavaVersion = ""
+    butterknifeVersion = ""
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:background="@android:color/white"
+android:id="@+id/rlDayInMonth"
+android:layout_margin="1dp"
+android:layout_height="48dp">
+
+<TextView
+    android:id="@+id/txtDayDate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="00"
+    android:layout_centerHorizontal="true"/>
+
+<TextView
+    android:id="@+id/txtEventCountBadge"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/txtDayDate"
+    android:visibility="invisible"
+    android:layout_centerHorizontal="true"
+    android:textColor="@android:color/white"
+    android:gravity="center"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:text="3"
+    android:background="@drawable/calendarbadge_bg"/>
+</RelativeLayout>
